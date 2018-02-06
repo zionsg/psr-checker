@@ -1,0 +1,5 @@
+# Ignore unnecessary files
+.DS_Store
+
+# Ignore Composer dependency dir
+vendor/

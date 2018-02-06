@@ -1,0 +1,15 @@
+{
+	"name": "ivideosmart/php-coding-standards",
+	"description": "Check external code for compliance with PSR-1 and PSR-2 coding standards",
+  "type": "project",
+
+	"require"    : {
+		"php" : "^7.0",
+		"squizlabs/php_codesniffer": "^3.2"
+	},
+
+	"scripts"    : {
+    "cs": "\"vendor/bin/phpcs\"",
+    "cs-ls": "\"vendor/bin/phpcs\" \"scripts/git-ls-files.sh\""
+	}
+}
